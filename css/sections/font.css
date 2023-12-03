@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Integral cf Bold";
+  src: url("/assets/fonts/integral=cf/Fontspring-DEMO-integralcf-bold.otf");
+}
+@font-face {
+  font-family: "Integral cf";
+  src: url("/assets/fonts/integral=cf/Fontspring-DEMO-integralcf-regular.otf");
+}
+
+@font-face {
+  font-family: "Integral cf Demi Bold";
+  src: url("/assets/fonts/integral=cf/Fontspring-DEMO-integralcf-demibold.otf");
+}
+@font-face {
+  font-family: "Integral cf Extra Bold";
+  src: url("/assets/fonts/integral=cf/Fontspring-DEMO-integralcf-extrabold.otf");
+}
+@font-face {
+  font-family: "Integral cf Heavy Bold";
+  src: url("/assets/fonts/integral=cf/Fontspring-DEMO-integralcf-heavy.otf");
+}
+@font-face {
+  font-family: "Integral cf Medium Bold";
+  src: url("/assets/fonts/integral=cf/Fontspring-DEMO-integralcf-medium.otf");
+}
+@font-face {
+  font-family: "Neue Plak Extended Black";
+  src: url("/assets/fonts/NeuePlak-ExtendedBlack.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Plak Extended Ultra";
+  src: url("NeuePlak-ExtendedUltraLight.eot");
+  src: local("Neue Plak Extended Ultra Light"), local("NeuePlak-ExtendedUltraLight"), url("NeuePlak-ExtendedUltraLight.eot?#iefix") format("embedded-opentype"),
+    url("NeuePlak-ExtendedUltraLight.woff2") format("woff2"), url("NeuePlak-ExtendedUltraLight.woff") format("woff"), url("NeuePlak-ExtendedUltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Plak";
+  src: url("//assets/fonts/NeuePlak-ExtendedRegular.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Plak Extended";
+  src: url("NeuePlak-ExtendedLight.eot");
+  src: local("Neue Plak Extended Light"), local("NeuePlak-ExtendedLight"), url("NeuePlak-ExtendedLight.eot?#iefix") format("embedded-opentype"), url("NeuePlak-ExtendedLight.woff2") format("woff2"),
+    url("NeuePlak-ExtendedLight.woff") format("woff"), url("NeuePlak-ExtendedLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Plak Extended";
+  src: url("NeuePlak-ExtendedThin.eot");
+  src: local("Neue Plak Extended Thin"), local("NeuePlak-ExtendedThin"), url("NeuePlak-ExtendedThin.eot?#iefix") format("embedded-opentype"), url("NeuePlak-ExtendedThin.woff2") format("woff2"),
+    url("NeuePlak-ExtendedThin.woff") format("woff"), url("NeuePlak-ExtendedThin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Plak Extended Semi";
+  src: url("/assets/fonts/NeuePlak-ExtendedSemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neue Plak Extended";
+  src: url("NeuePlak-ExtendedRegular.eot");
+  src: local("Neue Plak Extended"), local("NeuePlak-ExtendedRegular"), url("NeuePlak-ExtendedRegular.eot?#iefix") format("embedded-opentype"), url("NeuePlak-ExtendedRegular.woff2") format("woff2"),
+    url("NeuePlak-ExtendedRegular.woff") format("woff"), url("NeuePlak-ExtendedRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Plak Extended Extra";
+  src: url("NeuePlak-ExtendedExtraBlack.eot");
+  src: local("Neue Plak Extended Extra Black"), local("NeuePlak-ExtendedExtraBlack"), url("NeuePlak-ExtendedExtraBlack.eot?#iefix") format("embedded-opentype"),
+    url("NeuePlak-ExtendedExtraBlack.woff2") format("woff2"), url("NeuePlak-ExtendedExtraBlack.woff") format("woff"), url("NeuePlak-ExtendedExtraBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
