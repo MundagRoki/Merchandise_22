@@ -50,7 +50,7 @@
 }
 
 @font-face {
-  font-family: "Neue Plak Extended";
+  font-family: "Neue Plak Extended Light";
   src: url("NeuePlak-ExtendedLight.eot");
   src: local("Neue Plak Extended Light"), local("NeuePlak-ExtendedLight"), url("NeuePlak-ExtendedLight.eot?#iefix") format("embedded-opentype"), url("NeuePlak-ExtendedLight.woff2") format("woff2"),
     url("NeuePlak-ExtendedLight.woff") format("woff"), url("NeuePlak-ExtendedLight.ttf") format("truetype");
