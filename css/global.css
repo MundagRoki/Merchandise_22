@@ -2,40 +2,174 @@
 @import url("https://fonts.cdnfonts.com/css/druk-wide-bold");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 :root {
-  --drunk-windy: "Druk Wide Bold", sans-serif;
-  --montserrat: "Montserrat, sans-serif", sans-serif;
-  --nunito: "Nunito", sans-serif;
-
-  --primary-color: #6c110f;
-  --secondary-color: #ffffff;
-  --text-color-black: #000000;
-
-  --fading-ruby: #520c09;
-  --grey-600: #7c7c7c;
-
-  --nav__filter: #313131;
-  --nav__cat: #4f4f4f;
-  --hr: #afafaf;
-
-  --color-creamson: #fff0de;
-  /* font-size: 100%; */
+    --drunk-windy: "Druk Wide Bold", sans-serif;
+    --montserrat: "Montserrat, sans-serif", sans-serif;
+    --nunito: "Nunito", sans-serif;
+    --primary-color: #6c110f;
+    --secondary-color: #ffffff;
+    --text-color-black: #000000;
+    --fading-ruby: #520c09;
+    --grey-600: #7c7c7c;
+    --nav__filter: #313131;
+    --nav__cat: #4f4f4f;
+    --hr: #afafaf;
+    --color-creamson: #fff0de;
+    /* font-size: 100%; */
 }
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
 body {
-  margin: 0 auto;
+    margin: 0 auto;
 }
+
 a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
+
 button {
-  outline: none;
-  border: none;
+    outline: none;
+    border: none;
+}
+
+.row {
+    display: flex;
+}
+
+#filter-panel {
+    padding: 10px;
+}
+
+.filter-group {
+    margin-bottom: 10px;
+}
+
+.filter-group h3 {
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.filter-options {
+    display: none;
+    padding: 5px;
+    display: flex;
+}
+
+.filter__type {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter__type label {
+    color: #fff;
+}
+
+.filter-checkbox {
+    margin-right: 5px;
+}
+
+#content {
+    padding: 20px;
+}
+
+.products__section {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.products__head {
+    font-family: "Druk Wide Bold";
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+.products__head .pieces {
+    border-left: 2px solid #313131;
+    padding-left: 15px;
+    margin-left: 10px;
+    color: #313131;
+    font-family: "Druk Wide Bold";
+    font-size: 20px;
+}
+
+.product__items {
+    margin-top: 30px;
+}
+
+#search-box {
+    margin-bottom: 10px;
+}
+
+#search-box input {
+    width: 80%px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    border: 1px solid #000;
+}
+
+.cd_nav {
+    width: 59px;
+    background: var(--nav__filter);
+    box-shadow: 4px 4px 20px transparent;
+}
+
+.pp__logo {
+    padding: 30px 10px 30px 20px;
+    background-color: #000000;
+}
+
+.product__nav_icon li:nth-child(1) {
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin: auto;
+}
+
+.product__nav_icon li {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__nav_icon li:nth-child(3) {
+    margin-top: 179px;
+}
+
+.product__nav_icon li a i.bgk {
+    font-size: 16px;
+    padding: 5px;
+    color: var(--nav__filter);
+    border-radius: 50%;
+    background-color: var(--nav__cat);
+}
+
+.product__nav_icon li a i.fa-x-twitter {
+    font-size: 16px;
+    padding: 5px;
+    color: var(--nav__filter);
+    background-color: var(--nav__cat);
+    border-radius: 5px;
+}
+
+.product__nav_icon li a i {
+    font-size: 20px;
+    color: var(--nav__cat);
+}
+
+.cd-filter {
+    width: 280px;
+    height: 755px;
+    background: var(--nav__cat);
+    box-shadow: 4px 4px 20px transparent;
 }
