@@ -22,12 +22,10 @@ document.getElementById('price-header').addEventListener('click', function() {
     toggleFilterOptions('price-filter');
 });
 
-// Get all filter checkboxes and content items
 const checkboxes = document.querySelectorAll('.filter-checkbox');
 const products = document.querySelectorAll('.items');
 const searchInput = document.getElementById('search');
 
-// Add event listener to each checkbox
 checkboxes.forEach(checkbox => {
     checkbox.addEventListener('change', updateFilter);
 });
@@ -35,7 +33,7 @@ checkboxes.forEach(checkbox => {
 searchInput.addEventListener('input', updateFilter);
 
 function updateFilter() {
-    // Get the selected categories, prices, and search keywords
+
     const selectedCategories = Array.from(checkboxes)
         .filter(checkbox => checkbox.checked && checkbox.getAttribute('data-category'))
         .map(checkbox => checkbox.getAttribute('data-category'));
@@ -46,7 +44,6 @@ function updateFilter() {
 
     const searchKeywords = searchInput.value.toLowerCase();
 
-    // Show/hide products based on selected categories, prices, and search keywords
     products.forEach(items => {
         const productCategories = items.getAttribute('data-category').split(' ');
         const productPrice = items.getAttribute('data-price');
