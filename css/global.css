@@ -16,6 +16,8 @@
     --hr: #afafaf;
     --color-creamson: #fff0de;
     /* font-size: 100%; */
+    --primary-bg-color: #6c110f;
+    --grey-bg-color: #7C7C7C;
 }
 
 * {
@@ -39,12 +41,21 @@ button {
     border: none;
 }
 
+.bg-primary {
+    background-color: var(--primary-bg-color);
+}
+
+.bg-grey {
+    background-color: var(--grey-bg-color);
+}
+
 .row {
     display: flex;
 }
 
 #filter-panel {
-    padding: 10px;
+    padding: 15px 30px;
+    width: 250px;
 }
 
 .filter-group {
@@ -83,7 +94,7 @@ button {
 
 .products__section {
     padding-top: 30px;
-    padding-left: 100px;
+    padding-left: 350px;
 }
 
 .products__head {
@@ -93,7 +104,7 @@ button {
 }
 
 .products__head .pieces {
-    border-left: 2px solid #313131;
+    border-left: 4px solid #313131;
     padding-left: 15px;
     margin-left: 10px;
     color: #313131;
@@ -103,6 +114,7 @@ button {
 
 .product__items {
     margin-top: 30px;
+    max-width: 95%;
 }
 
 #search-box {
@@ -110,7 +122,7 @@ button {
 }
 
 #search-box input {
-    width: 80%px;
+    width: 100%;
     padding: 10px;
     border-radius: 10px;
     background-color: #D9D9D9;
@@ -168,8 +180,11 @@ button {
 }
 
 .cd-filter {
-    width: 280px;
     height: 755px;
     background: var(--nav__cat);
     box-shadow: 4px 4px 20px transparent;
+}
+
+.fixed {
+    position: fixed;
 }
