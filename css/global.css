@@ -56,7 +56,7 @@ button {
 
 #filter-panel {
   padding: 15px 30px;
-  width: 280px;
+  width: 250px;
 }
 
 .filter-group {
@@ -67,9 +67,7 @@ button {
   margin: 0;
   padding: 5px;
   cursor: pointer;
-  font-size: 15px;
   color: #fff;
-  font-family: "Neue Plak Extended Light", sans-serif;
 }
 
 .filter-options {
@@ -84,8 +82,6 @@ button {
 }
 
 .filter__type label {
-  font-size: 14px;
-  font-family: "Montserrat";
   color: #fff;
 }
 
@@ -99,7 +95,7 @@ button {
 
 .products__section {
   padding-top: 30px;
-  padding-left: 370px;
+  padding-left: 350px;
 }
 
 .products__head {
