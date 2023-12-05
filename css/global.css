@@ -17,7 +17,7 @@
   --nav__cat: #4f4f4f;
   --hr: #afafaf;
   --color-creamson: #fff0de;
-
+  --white: #fff;
   --grey-50: #f1f1f1;
   --grey-200: #d3d3d3;
   --grey-400: #afafaf;
@@ -52,6 +52,10 @@ button {
 
 .bg-primary {
   background-color: var(--primary-bg-color);
+}
+
+.bg-white {
+  background-color: var(--white);
 }
 
 .bg-grey {
