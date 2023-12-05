@@ -17,11 +17,11 @@
                         <p>TRY FILTER</p>
                         <div class="btn">
                             <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.3846 6.69793C11.7154 6.89087 11.7154 7.36877 11.3846 7.56171L0.876934 13.6912C0.543605 13.8856 0.124999 13.6452 0.124999 13.2593L0.124999 1.00034C0.124999 0.614445 0.543607 0.374009 0.876935 0.56845L11.3846 6.69793Z"
-                    fill="#121213"
-                  />
-                </svg>
+                                <path
+                                    d="M11.3846 6.69793C11.7154 6.89087 11.7154 7.36877 11.3846 7.56171L0.876934 13.6912C0.543605 13.8856 0.124999 13.6452 0.124999 13.2593L0.124999 1.00034C0.124999 0.614445 0.543607 0.374009 0.876935 0.56845L11.3846 6.69793Z"
+                                    fill="#121213"
+                                />
+                            </svg>
                         </div>
                     </div>
                     <p class="text-bold">HIGH-FASHION MERCH</p>
@@ -29,18 +29,24 @@
                     <div> </div>
                     <div class="sticky">
                         <button class="hambaagaa" onclick="document.getElementById('nav').style.display = 'flex'">
-                <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 1H19.4615" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                  <path d="M1 6H19.4615" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                  <path d="M1 11H19.4615" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                </svg>
-              </button>
+                            <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1H19.4615" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M1 6H19.4615" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M1 11H19.4615" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
-                <div class="title-r">
-                    <p>REDBURGER</p>
-                    <div></div>
+                <div class="two__item__center">
+                    <div class="w50">
+                        <img src="assets/pictures/unik.png" width="100%" alt="">
+                    </div>
+                    <div class="w50 title-r">
+                        <model-viewer class="burgermodel" alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="assets/burger/scene.gltf" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+                    </div>
+
                 </div>
+                <div class="line__black"></div>
             </div>
             <!--2text -->
             <div class="texts">
@@ -52,10 +58,9 @@
             <div class="mouse__container">
                 <div class="mouse">
                     <svg width="20" height="35" viewBox="0 0 20 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.5" y="0.5" width="19" height="34" rx="9.5" fill="white" stroke="#800020" />
-              <line x1="10" y1="8" x2="10" y2="18" stroke="#800020" stroke-width="2" />
-            </svg>
-
+                        <rect x="0.5" y="0.5" width="19" height="34" rx="9.5" fill="white" stroke="#800020" />
+                        <line x1="10" y1="8" x2="10" y2="18" stroke="#800020" stroke-width="2" />
+                    </svg>
                     <div>Scroll to explore.</div>
                 </div>
             </div>
@@ -79,7 +84,7 @@
                 </div>
                 <div class="row" id="section1">
                     <div class="first__img">
-                        <img src="https://d3bnae8u4t6ay0.cloudfront.net/showcase/635905e0dbaac606bc9ae48c_mYhvDzn7ee_.jpeg" width="100%" alt="" />
+                        <img src="https://d3bnae8u4t6ay0.cloudfront.net/showcase/635905e0dbaac606bc9ae48c_mYhvDzn7ee_.jpeg" width="620px" alt="" />
                     </div>
                     <div class="w50">
                         <div class="first__text fixed-element">
@@ -102,7 +107,7 @@
                         </div>
                     </div>
                     <div class="second__img">
-                        <img src="https://res.cloudinary.com/urlan/image/upload/v1666924932/merch/redburgeru/lifestyle/SOCIAL_POST_HOODIE_v1caj9.jpg" width="100%" alt="" />
+                        <img src="https://res.cloudinary.com/urlan/image/upload/v1666924932/merch/redburgeru/lifestyle/SOCIAL_POST_HOODIE_v1caj9.jpg" width="620px" alt="" />
                     </div>
                 </div>
             </div>
@@ -379,32 +384,7 @@
             </div>
         </div>
     </main>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const section1 = document.getElementById("section1");
-            const section2 = document.getElementById("section2");
-
-            window.addEventListener("scroll", function() {
-                const scrollPosition = window.scrollY;
-
-                if (scrollPosition > section1.offsetTop && scrollPosition < section2.offsetTop) {
-                    section1.querySelector('.first__text').classList.add('fixed-element1');
-                } else {
-                    section1.querySelector('.first__text').classList.remove('fixed-element1');
-                }
-
-                if (scrollPosition > section2.offsetTop && scrollPosition < section2.offsetTop + section2.offsetHeight) {
-                    section2.querySelectorAll('.second__text').forEach(element => {
-                        element.classList.add('fixed-element2');
-                    });
-                } else {
-                    section2.querySelectorAll('.second__text').forEach(element => {
-                        element.classList.remove('fixed-element2');
-                    });
-                }
-            });
-        });
-    </script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
 </body>
 
 </html>
