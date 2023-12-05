@@ -1,0 +1,143 @@
+#filter-panel {
+  padding: 15px 30px;
+  width: 250px;
+}
+
+.filter-group {
+  margin-bottom: 10px;
+}
+
+.filter-group h3 {
+  margin: 0;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.filter-options {
+  display: none;
+  padding: 5px;
+  display: flex;
+}
+
+.filter__type {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter__type label {
+  color: #fff;
+}
+
+.filter-checkbox {
+  margin-right: 5px;
+}
+
+#content {
+  padding: 20px;
+}
+
+.products__section {
+  padding-top: 30px;
+  padding-left: 350px;
+}
+
+.products__head {
+  font-family: "Neue Plak Extended Bold";
+  font-size: 25px;
+  color: var(--secondary-color);
+}
+
+.pieces {
+  font-family: "Neue Plak Extended Bold";
+  font-size: 20px;
+}
+
+.products__head .pieces {
+  border-left: 3.2px solid #313131;
+  padding-left: 15px;
+  margin-left: 10px;
+  color: #313131;
+}
+
+.product__items {
+  margin-top: 30px;
+  max-width: 95%;
+}
+
+#search-box {
+  margin-bottom: 10px;
+}
+
+#search-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  border: 1px solid #000;
+}
+
+.cd_nav {
+  width: 59px;
+  background: var(--nav__filter);
+  box-shadow: 4px 4px 20px transparent;
+}
+
+.pp__logo {
+  padding: 30px 10px 30px 20px;
+  background-color: #000000;
+}
+
+.product__nav_icon li:nth-child(1) {
+  padding: 20px 0;
+  border-bottom: 1px solid #fff;
+  width: 80%;
+  margin: auto;
+}
+
+.product__nav_icon li {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product__nav_icon li:nth-child(3) {
+  margin-top: 179px;
+}
+
+.product__nav_icon li a i.bgk {
+  font-size: 16px;
+  padding: 5px;
+  color: var(--nav__filter);
+  border-radius: 50%;
+  background-color: var(--nav__cat);
+}
+
+.product__nav_icon li a i.fa-x-twitter {
+  font-size: 16px;
+  padding: 5px;
+  color: var(--nav__filter);
+  background-color: var(--nav__cat);
+  border-radius: 5px;
+}
+
+.product__nav_icon li a i {
+  font-size: 20px;
+  color: var(--nav__cat);
+}
+
+.cd-filter {
+  height: 755px;
+  background: var(--nav__cat);
+  box-shadow: 4px 4px 20px transparent;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.items p {
+  font-family: "Neue Plak Extended Extra";
+  font-size: 10px;
+}
