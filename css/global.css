@@ -7,16 +7,24 @@
   --drunk-windy: "Druk Wide Bold", sans-serif;
   --montserrat: "Montserrat, sans-serif", sans-serif;
   --nunito: "Nunito", sans-serif;
+
   --primary-color: #6c110f;
   --secondary-color: #ffffff;
   --text-color-black: #000000;
+
   --fading-ruby: #520c09;
-  --grey-600: #7c7c7c;
   --nav__filter: #313131;
   --nav__cat: #4f4f4f;
   --hr: #afafaf;
   --color-creamson: #fff0de;
-  /* font-size: 100%; */
+
+  --grey-50: #f1f1f1;
+  --grey-200: #d3d3d3;
+  --grey-400: #afafaf;
+  --grey-600: #7c7c7c;
+  --grey-800: #343434;
+  --grey-850: #313131;
+
   --primary-bg-color: #6c110f;
   --grey-bg-color: #7c7c7c;
 }
