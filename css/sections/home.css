@@ -1,20 +1,8 @@
-/* body {
-  background-color: #6c110f;
-} */
-
 section {
   height: 100%;
   width: 100%;
   padding: 30px 48px 24px 48px;
 }
-
-nav {
-  width: 100%;
-}
-
-/* p {
-  margin-bottom: 10px;
-} */
 
 .mt5 {
   margin-top: 5%;
@@ -223,7 +211,7 @@ nav {
 .fixed-element1 {
   position: fixed;
   top: 0;
-  margin-top: 4%;
+  margin-top: 200px;
 }
 
 .second__img {
@@ -239,8 +227,8 @@ nav {
 }
 
 .second__text {
-  margin-top: 20%;
-  margin-left: 100px;
+  margin-top: 300px;
+  margin-left: 10px;
   z-index: 1000;
   position: sticky;
   color: var(--secondary-color);
@@ -261,12 +249,12 @@ nav {
 .first {
   font-family: "Neue Plak Extended Semi";
   font-size: 12px;
+  margin-top: 200px;
 }
 
 .second {
   font-family: "Integral cf Demi Bold";
   font-size: 30px;
-  display: flex;
 }
 
 .third {
@@ -390,6 +378,7 @@ section:nth-child(2) {
   width: 100%;
   background-color: #78110e;
   border-radius: 24px;
+  color: #ffff;
 }
 
 .circle {
@@ -400,11 +389,6 @@ section:nth-child(2) {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.nav__container a,
-p {
-  color: #ffff;
 }
 
 .nav_first {
