@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="css/sections/home.css">
+    <link rel="stylesheet" href="/css/sections/cart.css">
+
+</head>
+
+<body class="bg-grey">
+    <!-- partial:index.partial.html -->
+    <section>
+        <div class="container__2">
+            <div class="home__slide">
+                <div class="nav-row-1">
+                    <div class="try-btn">
+                        <p>TRY FILTER</p>
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=ZG_15R634kxmilRp" class="btn">
+                            <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.3846 6.69793C11.7154 6.89087 11.7154 7.36877 11.3846 7.56171L0.876934 13.6912C0.543605 13.8856 0.124999 13.6452 0.124999 13.2593L0.124999 1.00034C0.124999 0.614445 0.543607 0.374009 0.876935 0.56845L11.3846 6.69793Z"
+                  fill="#121213"
+                />
+              </svg>
+                        </a>
+                    </div>
+                    <p class="text-bold">HIGH-FASHION MERCH</p>
+                    <div>
+                        <button class="hambaagaa" onclick="document.getElementById('nav').style.display = 'flex'">
+              <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1H19.4615" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M1 6H19.4615" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M1 11H19.4615" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container__2 cartp">
+        <div class="payment_details">
+            <h1>Payment Information</h1>
+            <div class="details_card">
+                <div class="name_address">
+                    <div class="first_lastName">
+                        <input type="text" placeholder="First Name" />
+                        <input type="text" placeholder="Last Name" />
+                    </div>
+                    <div class="address">
+                        <input type="text" onkeyup="change()" id="put" placeholder="Address" />
+                        <input type="number" placeholder="Pincode" />
+                        <input type="text" placeholder="Country" />
+                    </div>
+                </div>
+                <h1>Shipping Details</h1>
+                <div class="shipping_card">
+                    <div class="new_card">
+                        <h4>Same as personal</h4>
+                        <p id="output">Bharat House Bombay Samachar Road</p>
+                        <p>400001</p>
+                    </div>
+                    <div class="add_savedcard">
+                        <h4>Saved Address</h4>
+                        <p>Lokhandwala Complex, Andheri (west)</p>
+                        <p>400053</p>
+                    </div>
+                </div>
+                <div class="proced_payment">
+                    <a href="">Procced to payment</a>
+                </div>
+            </div>
+        </div>
+        <div class="order_summary">
+            <h1>Order Summary</h1>
+            <div class="summary_card">
+                <div class="card_item">
+                    <div class="product_img">
+                        <img src="assets/pictures/product/001_black_tee_main_post_uqct1n.jpg" alt=" " />
+                    </div>
+                    <div class="product_info ">
+                        <h1>“Red Burgeru пудволк”</h1>
+                        <p>Lorem Ipsum is simply dummy text.</p>
+                        <div class="close-btn ">
+                            <i class="fa fa-close "></i>
+                        </div>
+                        <div class="product_rate_info ">
+                            <h1>₮ 103,000</h1>
+                            <span class="pqt-minus ">-</span>
+                            <span class="pqt ">1</span>
+                            <span class="pqt-plus ">+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_item ">
+                    <div class="product_img ">
+                        <img src="assets/pictures/product/ezgif.com-gif-maker_lyeih8.gif" alt=" " />
+                    </div>
+                    <div class="product_info ">
+                        <h1>“Red Burgeru special special bundle”</h1>
+                        <p>Lorem Ipsum is simply dummy text.</p>
+                        <div class="close-btn ">
+                            <i class="fa fa-close "></i>
+                        </div>
+                        <div class="product_rate_info ">
+                            <h1>₮ 450,000</h1>
+                            <span class="pqt-minus ">-</span>
+                            <span class="pqt ">1</span>
+                            <span class="pqt-plus ">+</span>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="order_price ">
+                    <p>Order summary</p>
+                    <h4>₮ 553,000</h4>
+                </div>
+                <div class="order_service ">
+                    <p>Additional Service</p>
+                    <h4>₮ 0</h4>
+                </div>
+                <div class="order_total ">
+                    <p>Total Amount</p>
+                    <h4>₮ 553,000</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container__2 ">
+        <footer>
+            <div class="hr "></div>
+            <div class="footer ">
+                <div>
+                    <div>
+                        <p class="embrace ">
+                            We Embrace, We Inspire, <br /> We Create. We Radiate.
+                        </p>
+                        <p class="Lady ">Lady Mundag Roki</p>
+                    </div>
+                </div>
+                <div class="footer__first ">
+                    <div class="connect footer__first px20 ">
+                        CONNECT <br /> WITH <br /> US
+                    </div>
+                    <div class="links ">
+                        <p>Our</p>
+                        <p>Discord</p>
+                        <p>Youtube</p>
+                        <p>Instagram</p>
+                    </div>
+                    <div class="links ">
+                        <p>View on Geru</p>
+                        <p>Fashion Index</p>
+                        <p>Drop</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hr "></div>
+            <div class="down ">
+                <div class="row ">
+                    <div class="w50 ">
+                        <div class="left ">
+                            <p>2023</p>
+                            <p>REDBURGER</p>
+                            <p>STYLED BY @ENKHJINHHH</p>
+                        </div>
+                    </div>
+                    <div class="w50 ">
+                        <div class="right ">
+                            <p>TERMS & CONDITIONS</p>
+                            <p>PRIVACY POLICY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="container__2 ">
+            <div id="nav " class="nav__modal ">
+                <div class="nav__container ">
+                    <div class="nav_first ">
+                        <p class="nav_text ">REDBURGER</p>
+                        <div class="hambagur ">
+                            <p class="menu ">CLOSE MENU</p>
+                            <span onclick="document.getElementById( 'nav').style.display='none' " class="w3-button w3-display-topright "><div class="circle ">
+                <svg width="17 " height="15 " viewBox="0 0 17 15 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                  <path d="M15 13L2.13066 2.00001 " stroke="black " stroke-width="3.5 " />
+                  <path d="M2 13L14.8693 2.00001 " stroke="black " stroke-width="3.5 " />
+                </svg>
+              </div>
+            </span>
+                        </div>
+                    </div>
+                    <div class="nav_second ">
+                        <div class="nav_text2 ">
+                            <a href=" ">
+                                <p>HOME</p>
+                            </a>
+                            <a href=" ">
+                                <p>OUR TEAM</p>
+                            </a>
+                            <a href=" ">
+                                <p>FASHION INDEX</p>
+                            </a>
+                            <a href=" ">
+                                <p>CONTACT US</p>
+                            </a>
+                        </div>
+                        <div class="nav_text3 ">
+                            <a href=" ">
+                                <p>JOIN OUR DISCORD</p>
+                            </a>
+                            <a href=" ">
+                                <p>VIEW ON GERU</p>
+                            </a>
+                            <a href=" ">
+                                <p>SUBSCRIBE US ON YOUTUBE</p>
+                            </a>
+                            <a href=" ">
+                                <p>DROPS</p>
+                            </a>
+                            <a href=" ">
+                                <p>APPAREL LOOKBOOK</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hr__2 "></div>
+                    <div class="btn__term ">
+                        <div class="try-btn ">
+                            <p>TRY FILTER</p>
+                            <a href="https://youtu.be/dQw4w9WgXcQ?si=ZG_15R634kxmilRp " class="btn ">
+                                <svg width="12 " height="14 " viewBox="0 0 12 14 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                <path
+                  d="M11.3846 6.69793C11.7154 6.89087 11.7154 7.36877 11.3846 7.56171L0.876934 13.6912C0.543605 13.8856 0.124999 13.6452 0.124999 13.2593L0.124999 1.00034C0.124999 0.614445 0.543607 0.374009 0.876935 0.56845L11.3846 6.69793Z "
+                  fill="#121213 "
+                />
+              </svg>
+                            </a>
+                        </div>
+
+                        <div class="term__privacy ">
+                            <p>TERMS AND CONDITIONS</p>
+                            <p>PRIVACY POLICY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
+
+</body>
+
+</html>
