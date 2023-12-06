@@ -6,7 +6,7 @@ const scrollHandler = (event) => {
     console.log(event);
 };
 
-var love = "Hairtai juu";
+var love = "FUCKAARAA TEGELSIN";
 console.log(love);
 
 function toggleFilterOptions(filterId) {
